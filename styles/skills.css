@@ -1,0 +1,95 @@
+/*This is the css for the skills section*/
+
+#skills {
+  background-color: #292a2e;
+  width: 100%;
+  display: block;
+  padding: 50px;
+}
+
+.skillset {
+  justify-content: center;
+  display:block;
+  overflow:auto;
+}
+
+.shead{
+   border-bottom: 1px #0dcd9d solid;
+  padding-bottom: 15px;
+}
+
+.skills-text {
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+
+}
+
+table,
+tr,
+td {
+  border: 2px solid #0dcd9d;
+  padding: 25px;
+  border-spacing: 50px;
+  background-color: #18191d;
+  justify-content: center;
+  text-align: center;
+}
+
+table {
+   width:100%;
+}
+
+tr {
+  height: 150px;
+}
+
+.skillset h4 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+text-align: center;
+}
+
+.icon-ps {
+  width: 140px;
+  height: 70px;
+  text-align: center;
+}
+
+.icon-id {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+.icon-dn {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.icon-html {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+}
+
+.icon-css {
+  width: 42px;
+  height: 40px;
+  text-align: center;
+}
+
+.icon-js {
+  width: 92px;
+  height: 48px;
+  padding-top: 10px;
+  text-align: center;
+}

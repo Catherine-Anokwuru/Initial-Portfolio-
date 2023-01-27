@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+  display: flexbox;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+ 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",;
+}
+body{
+  display: flexbox;
+
+}
+
+@media(max-width: 600px) {
+	.container {
+		min-width: 320px;
+	}}

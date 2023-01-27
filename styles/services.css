@@ -1,0 +1,56 @@
+/*This is the css for the services section*/
+
+#serve {
+  background-color: #18191d;
+  width: 100%;
+  display: block;
+  padding:50px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  gap: 30px;
+  flex: 1 1 0 ;
+  justify-content: center;
+
+}
+.service-text{
+  color: white;
+  text-align: center;
+padding-bottom: 15px;
+margin-bottom: 35px;
+  
+}
+.s{
+  border-bottom: 1px #0dcd9d solid;
+  padding-bottom: 15px;
+
+}
+
+.offer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  margin-bottom: 30px;
+  padding: 45px 20px;
+  border: 2px solid #0dcd9d;
+  background-color: #292a2e;
+  color: white;
+}
+
+.offer h5{
+display:flex;
+justify-content:center;
+text-align: center;
+ font-size: 20px;
+padding: 20px 20px 20px 10px ;
+}
+
+.offer .logo{
+  width: 100px;
+  height: 100px;
+padding: 10px 20px 20px 20px;
+}

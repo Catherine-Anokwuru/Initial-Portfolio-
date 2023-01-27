@@ -1,0 +1,67 @@
+/*This is the css for the navigation section*/
+
+.nav-bar {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position: sticky;
+  top: 0;
+  background-color: #18191d;
+  padding: 20px 50px;
+  width:100%;
+  
+}
+
+nav {
+	display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+  align-items: center;
+  flex: 1 1 0;
+    
+}
+
+.p-folio {
+  color: #0dcd9d;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 10px 25px;
+  justify-content: center; 
+  text-align : center; 
+}
+
+.hire-me{
+  display: inline;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+nav ul li a:hover {
+	color: #0dcd9d;
+	transition: 0.4s;
+    cursor: pointer;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #0dcd9d;
+    color: #18191d;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 25px;
+    display:block;
+  
+}
+.button:hover{
+  cursor: pointer;
+	background-color: #075b46;
+}

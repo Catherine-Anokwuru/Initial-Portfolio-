@@ -1,0 +1,54 @@
+/*This is the css for the home section*/
+
+#my-name{
+  background-color: #18191d;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+}
+
+.home{
+ display: flex;
+flex-flow: row wrap;
+gap: 30px;
+flex: 1 1 0 ;
+}
+
+.intro{
+display: flex;
+flex-flow: column wrap ;
+align-self:center;
+justify-content:left;
+flex: 1 1 0 ;
+}
+
+.my-img{
+ display: flex;
+flex-flow: row wrap;
+padding-right:50px;
+justify-content: flex-end;
+align-self:center;
+flex: 1 1 0 ;
+}
+
+#me{
+width: 250px;
+height: 250px;
+border-radius: 35px;
+border:2px #0dcd9d solid;
+
+}
+
+.intro h2{
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+
+.intro h3 {
+text-align: center;
+border-top: 2px #0dcd9d solid;
+padding-top: 20px;
+}
+

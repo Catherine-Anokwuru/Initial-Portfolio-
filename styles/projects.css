@@ -1,0 +1,44 @@
+/*This is the css for the projects section*/
+
+#projects {
+  background-color: #18191d;
+  width: 100%;
+  display: block;
+  padding:50px;
+}
+
+.jects {
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  gap: 10px;
+  flex: 1 1 0 ;
+}
+
+.pro{
+display: flex;
+flex-direction: column;
+align-items: center;
+flex: 1 1 0;
+}
+
+.pr{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  object-fit:contain; 
+}
+
+.pr-text{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.project-text .p{
+  border-bottom: 1px #0dcd9d solid;
+  padding-bottom: 15px;
+}

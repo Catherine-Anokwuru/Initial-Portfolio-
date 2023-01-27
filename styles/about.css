@@ -1,0 +1,69 @@
+#abt-me {
+  width: 100%;
+  background-color: #292a2e;
+  display: grid;
+padding: 50px 50px 0px 50px;
+
+}
+
+.about-me {
+  display: grid;
+grid-template-areas: "about about" 
+                     "priorities hobbies";
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+grid-row-gap: 60px;
+grid-column-gap: 50px
+}
+
+.about {
+  text-align: center;
+grid-area: about;
+
+}
+
+h3 {
+  color: #0dcd9d;
+  text-align: center;
+
+}
+
+.ahead{
+border-bottom: 1px #0dcd9d solid;
+padding-bottom: 15px;
+}
+.about-text {
+  color: white;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.more {
+  color: #0dcd9d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.priorities{
+text-align: center;
+grid-area: priorities;
+
+}
+.priorities p{
+  color: white;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+.hobbies{
+  text-align: center;
+grid-area: hobbies;
+}
+.hobbies p{
+  color: white;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: center;
+}

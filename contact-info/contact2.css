@@ -1,0 +1,61 @@
+/*This is the css for the contact page*/
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+	"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #18191d;
+   padding: 100px;
+}
+
+#contact {
+    background-color: #0dcd9d;
+    width: 100%;
+    padding: 50px;
+}
+
+.list{
+    width: 100%;
+    margin: 50px 15px;
+    padding: 50px;
+    background-color:#292a2e;
+    color: white;
+    height: 100px;
+    align-items:center; 
+    justify-content: center; 
+}
+
+.list .text {
+    color: #0dcd9d;
+    text-align:left;
+    font-size: 45px;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  object-fit: contain ; 
+  display:inline;
+  align-items: center;
+  justify-content: center; 
+}
+
+caption{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media(max-width: 600px){
+    .contact{
+        min-width: 320px;
+    }
+}
